@@ -12,10 +12,26 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+        // determine the desired sequence length
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        // determine how many letters vs numbers to include
         
+        // loop through sequence size to build the sequence
+        {
+            // randomly pick if the next will be a letter of number
+            
+            // randomly pick character from chosen set
+            
+            // ensure not duplicate character
+            
+            // append to string
+        }
+        
+        // output sequence with spacing for easier reading
+        
+        // sort sequence
+        
+        // output sorted sequence with spacing
     }
     return 0;
 }
