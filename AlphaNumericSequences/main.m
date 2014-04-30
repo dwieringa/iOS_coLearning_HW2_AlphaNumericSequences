@@ -31,7 +31,10 @@ int main(int argc, const char * argv[])
         srand((unsigned int)time(NULL));
 
         // determine the desired sequence length
-        int seqSize = getIntegerFromConsole(@"Enter the desired sequence size: ");
+        int seqSize;
+        do {
+            seqSize = getIntegerFromConsole(@"Enter the desired sequence size (2-15): ");
+        } while (seqSize < 2 || seqSize > 15);
         
         // determine how many letters vs numbers to include (starting real simple)
         int numLetters = seqSize / 2;
