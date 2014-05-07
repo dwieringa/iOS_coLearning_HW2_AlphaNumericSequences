@@ -1,6 +1,4 @@
-iOS_coLearning_HW1_AlphaNumericSequences
+iOS_coLearning_HW2_AlphaNumericSequences
 ========================================
 
-Homework #1 for iOS coLearning.  Using the 'Intro to C' material to solve a real world problem.
-
-As it turns out I needed method calls (on NSString) which we haven't covered yet.  It's hard to work with strings without either NSString methods or char.
+Homework #2 for iOS coLearning.  Modify homework #1 (use 'Intro to C' material to solve real world problem) to use this week's material (Intro to OOP).
