@@ -11,6 +11,8 @@
 		550A58791911610100557C29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 550A58781911610100557C29 /* main.m */; };
 		550A587D1911610100557C29 /* AlphaNumericSequences.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 550A587C1911610100557C29 /* AlphaNumericSequences.1 */; };
 		550A58841911687E00557C29 /* console.m in Sources */ = {isa = PBXBuildFile; fileRef = 550A58831911687E00557C29 /* console.m */; };
+		557199E5191AC95500AC6F14 /* Sequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 557199E4191AC95500AC6F14 /* Sequence.m */; };
+		557199E8191ADBA400AC6F14 /* random.m in Sources */ = {isa = PBXBuildFile; fileRef = 557199E7191ADBA400AC6F14 /* random.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		550A587C1911610100557C29 /* AlphaNumericSequences.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AlphaNumericSequences.1; sourceTree = "<group>"; };
 		550A58831911687E00557C29 /* console.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = console.m; sourceTree = "<group>"; };
 		550A58851911688D00557C29 /* console.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = console.h; sourceTree = "<group>"; };
+		557199E3191AC95500AC6F14 /* Sequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sequence.h; sourceTree = "<group>"; };
+		557199E4191AC95500AC6F14 /* Sequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sequence.m; sourceTree = "<group>"; };
+		557199E6191ADB3900AC6F14 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		557199E7191ADBA400AC6F14 /* random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = random.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 			isa = PBXGroup;
 			children = (
 				550A58781911610100557C29 /* main.m */,
+				557199E3191AC95500AC6F14 /* Sequence.h */,
+				557199E4191AC95500AC6F14 /* Sequence.m */,
+				557199E6191ADB3900AC6F14 /* random.h */,
+				557199E7191ADBA400AC6F14 /* random.m */,
 				550A58851911688D00557C29 /* console.h */,
 				550A58831911687E00557C29 /* console.m */,
 				550A587C1911610100557C29 /* AlphaNumericSequences.1 */,
@@ -144,8 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557199E8191ADBA400AC6F14 /* random.m in Sources */,
 				550A58791911610100557C29 /* main.m in Sources */,
 				550A58841911687E00557C29 /* console.m in Sources */,
+				557199E5191AC95500AC6F14 /* Sequence.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +271,7 @@
 				550A58821911610100557C29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
