@@ -12,11 +12,14 @@
 
 - (instancetype)initWithLength:(NSInteger)length;
 
-@property (readonly) NSInteger length;
+@property (readonly) NSInteger length;  // readonly since it is defined at initialization and should not change
 @property (strong, readonly) NSArray *elements;
 @property (strong, readonly) NSArray *elementsSorted;
 
-- (NSString *)asString;
+// Note: elements & elementsSorted properties are readonly since they are managed internal to Sequence class and should not be modified by anything else.
+
+// Methods/Messages
+- (NSString *)asString;  // convert a sequence to a human-readable string
 - (NSString *)asStringSorted;
 
 @end
